@@ -1,0 +1,25 @@
+#box1 {
+        width: 600px;
+        height: 600px;
+        background-color: thistle;
+        position: static;
+        left: 0%;
+        top: 0%;
+        opacity: 0.5;
+/*      -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+        transform: rotate(0deg);
+    }  
+    
+
+
+  #box2 {
+        width: 600px;
+        height: 600px;
+        background-color: indigo;
+        position: absolute;
+        left: 60%;
+        top: 50%;
+        opacity: 0.5;
+ /*       -webkit-transform: rotate(20deg); /* Chrome, Safari, Opera */
+        transform: rotate(0deg);
+    }

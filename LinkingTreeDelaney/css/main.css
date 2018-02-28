@@ -1,0 +1,357 @@
+body {
+	background-color: gold;
+}
+
+/* ____________________________________________*/
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+a:visited {
+	color: black;
+}
+
+a:hover {
+	color: #fdc955;
+}
+
+/* ____________________________________________*/
+
+div.main1 {
+	font-size: 400%;
+	font-family: "Cochin", serif;
+	color: black;
+	position: absolute;
+	top: 10%;
+}
+
+div.main2 {
+	font-size: 300%;
+	font-family: "Cochin", serif;
+	color: black;
+}
+
+div.main2back {
+	font-size: 300%;
+	font-family: "Cochin", serif;
+	color: GoldenRod;
+	direction: rtl;
+}
+
+div.main2color {
+	font-size: 300%;
+	font-family: "Cochin", serif;
+	color: GoldenRod;
+}
+
+div.main3 {
+	font-size: 300%;
+	font-family: "Cochin", serif;
+	color: black;
+}
+
+div.main3:hover {
+	font-size: 800%;
+	color: GoldenRod;
+}
+
+div.main4 {
+	font-size: 300%;
+	font-family: "Cochin", serif;
+	color: black;
+	border-style: double;
+	border-width: 10px;
+	border-radius: 10px;
+}
+
+h1 {
+	font-size: 200%;
+	font-family: "Helvetica";
+	color: #cc9c1a;
+	text-shadow: 2px 2px 5px #ea9c35;
+}
+
+/* ____________________________________________*/
+
+div.b {
+	font-size: 600%;
+	font-family: "Helvetica";
+	color: black;
+	position: fixed;
+	left: 30%;
+	top: 40%;
+    -webkit-transform: rotate(-25deg); 
+    transform: rotate(-25deg);	
+    opacity: 0.3;
+}
+
+div.b2 {
+	font-size: 700%;
+	font-family: "Helvetica";
+	color: black;
+	position: fixed;
+	left: 10%;
+	top: 15%;
+    -webkit-transform: rotate(-10deg); 
+    transform: rotate(-10deg);	
+    opacity: 0.4;
+}
+
+div.b3 {
+	font-size: 500%;
+	font-family: "Helvetica";
+	color: black;
+	position: fixed;
+	left: 10%;
+	top: 65%;
+    -webkit-transform: rotate(15deg); 
+    transform: rotate(15deg);	
+    opacity: 0.4;
+}
+
+div.b4 {
+	font-size: 700%;
+	font-family: "Helvetica";
+	color: black;
+	position: fixed;
+	left: 50%;
+	top: 15%;
+    -webkit-transform: rotate(15deg); 
+    transform: rotate(15deg);	
+    opacity: 0.8;
+}
+
+div.b5 {
+	font-size: 600%;
+	font-family: "Helvetica";
+	color: black;
+	position: fixed;
+	left: 50%;
+	top: 70%;
+    -webkit-transform: rotate(5deg); 
+    transform: rotate(5deg);	
+    opacity: 0.6;
+}
+
+div.b6 {
+	font-size: 600%;
+	font-family: "Helvetica";
+	color: black;
+	position: fixed;
+	left: 75%;
+	top: 35%;
+    -webkit-transform: rotate(-10deg); 
+    transform: rotate(-10deg);	
+    opacity: 0.6;
+}
+
+div.b7 {
+	font-size: 600%;
+	font-family: "Helvetica";
+	color: black;
+	position: fixed;
+	left: 25%;
+	top: 5%;
+    -webkit-transform: rotate(15deg); 
+    transform: rotate(15deg);	
+    opacity: 0.3;
+}
+
+/* ____________________________________________*/
+
+div.c {
+	font-size: 700%;
+	font-family: "Helvetica";
+	color: black;
+	position: fixed;
+	left: 50%;
+	top: 50%;
+    -webkit-transform: rotate(20deg); 
+    transform: rotate(20deg);	
+    opacity: 0.2;
+}
+
+div.c2 {
+	font-size: 500%;
+	font-family: "Helvetica";
+	color: black;
+	position: fixed;
+	left: 20%;
+	top: 30%;
+    -webkit-transform: rotate(5deg); 
+    transform: rotate(5deg);	
+    opacity: 0.2;
+}
+
+div.c3 {
+	font-size: 600%;
+	font-family: "Helvetica";
+	color: black;
+	position: fixed;
+	left: 70%;
+	top: 5%;
+    -webkit-transform: rotate(5deg); 
+    transform: rotate(5deg);	
+    opacity: 0.5;
+}
+
+div.c4 {
+	font-size: 500%;
+	font-family: "Helvetica";
+	color: black;
+	position: fixed;
+	left: 20%;
+	top: 85%;
+    -webkit-transform: rotate(-5deg); 
+    transform: rotate(-5deg);	
+    opacity: 0.8;
+}
+
+div.c5 {
+	font-size: 300%;
+	font-family: "Helvetica";
+	color: black;
+	position: fixed;
+	left: 10%;
+	top: 5%;
+    -webkit-transform: rotate(25deg); 
+    transform: rotate(25deg);	
+    opacity: 0.8;
+}
+
+div.c6 {
+	font-size: 800%;
+	font-family: "Helvetica";
+	color: black;
+	position: fixed;
+	left: 10%;
+	top: 50%;
+    -webkit-transform: rotate(20deg); 
+    transform: rotate(20deg);	
+    opacity: 0.75;
+}
+
+/* ____________________________________________*/
+
+div.hex {
+	width: 100px;
+	height: 55px;
+	background: GoldenRod;
+	position: relative;
+}
+
+div.hex:before {
+	content: "";
+	position: absolute;
+	top: -25px;
+	left: 0;
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 25px solid GoldenRod;
+}
+
+div.hex:after {
+	content: "";
+	position: absolute;
+	bottom: -25px;
+	left: 0;
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-top: 25px solid GoldenRod;
+}
+
+/* ____________________________________________*/
+
+div.hidden1 {
+	color: gold;
+
+}
+
+div.hidden1:hover {
+	color: #c99148;
+	font-family: "Helvetica";
+	position: fixed;
+	left: 10%;
+	top: 50%;
+    -webkit-transform: rotate(20deg); 
+    transform: rotate(20deg);	
+    opacity: 0.75;
+}
+
+/* ____________________________________________*/
+
+div.hidden2 {
+	color: gold;
+
+}
+
+div.hidden2:hover {
+	color: #c99148;
+	font-family: "Helvetica";
+	position: fixed;
+	left: 50%;
+	top: 65%;
+    -webkit-transform: rotate(-15deg); 
+    transform: rotate(-15deg);	
+    opacity: 0.75;
+}
+
+/* ____________________________________________*/
+
+div.hidden3 {
+	color: gold;
+
+}
+
+div.hidden3:hover {
+	color: #c99148;
+	font-family: "Helvetica";
+	position: fixed;
+	left: 35%;
+	top: 80%;
+    -webkit-transform: rotate(-5deg); 
+    transform: rotate(-5deg);	
+    opacity: 0.75;
+}
+
+/* ____________________________________________*/
+
+div.hidden4 {
+	color: gold;
+
+}
+
+div.hidden4:hover {
+	color: #c99148;
+	font-family: "Helvetica";
+	position: fixed;
+	left: 90%;
+	top: 45%;
+    -webkit-transform: rotate(-15deg); 
+    transform: rotate(-15deg);	
+    opacity: 0.75;
+}
+
+/* ____________________________________________*/
+
+div.hidden5 {
+	color: gold;
+
+}
+
+div.hidden5:hover {
+	color: #c99148;
+	font-family: "Helvetica";
+	position: fixed;
+	left: 10%;
+	top: 70%;
+    -webkit-transform: rotate(20deg); 
+    transform: rotate(20deg);	
+    opacity: 0.75;
+
