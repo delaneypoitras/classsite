@@ -1,0 +1,57 @@
+body {
+	font-family: "Cochin";
+	color: black;
+}
+
+video {
+	border: 5px solid black;
+/*	box-shadow: 10px 10px 10px #333333; */
+/*	filter: grayscale(1);*/
+}
+
+.split {
+	height: 100%;
+	width: 50%;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	overflow-x: hidden; 
+	padding-top: 20px;
+}
+
+.left {
+	left: 0;
+/* 	background-color: black; */
+}
+
+.right {
+	right: 0;
+/*	background-color: black; */
+}
+
+.centered {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+/* .centered img {
+	width: 300px;
+	border-radius: 50%;
+} */
+
+.winter {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	min-width: 100%;
+	min-height: 100%;
+	overflow-x: hidden;
+/*	filter: grayscale(1); */
+} 
+
