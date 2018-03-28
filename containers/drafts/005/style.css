@@ -12,3 +12,20 @@ img{
 	border-radius: 50%;
 	padding: 5px;
 }
+
+h1 {
+	font-size: 500%;
+	font-family: "Helvetica", serif;
+	color: black;
+	position: absolute;
+	padding: 10px;
+}
+
+select {
+	font-size: 200%;
+	font-family: "Helvetica", serif;
+	color: black;
+	position: absolute;
+	padding: 10px;	
+
+}
