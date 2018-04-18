@@ -1,0 +1,305 @@
+.title {
+	font-size: 300%;
+	font-family: "Crimson Text", serif;
+	position: absolute;
+	top: 10px;
+	left: 40%;
+}
+
+a {
+	text-decoration: none;
+}
+
+.testinglink {
+	background-color: #c6ede7;
+	height: 150px;
+	width: 400px;
+	position: absolute;
+	top: 30%;
+	left: 25%;
+	padding: 2%;
+	font-size: 300%;
+	font-family: "Crimson Text", serif;
+	text-decoration: none;
+}
+
+.testinglink2 {
+	background-color: #c6d7ed;
+	height: 150px;
+	width: 400px;
+	position: absolute;
+	top: 45%;
+	left: 25%;
+	padding: 2%;
+	font-size: 300%;
+	font-family: "Crimson Text", serif;
+	text-decoration: none;
+}
+
+.landingheader {
+	font-size: 400%;
+	font-family: monospace;
+	overflow:hidden;
+	border-right: .15em solid gray;
+	white-space: nowrap;
+	margin: 0 auto;
+	letter-spacing: .15em;
+	animation: 
+		typing 4.5s steps(22, end),
+		blink-caret .5s step-end infinite;	
+	position: absolute;
+	top: 20px;
+	left: 10%;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 55% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: gray }
+}
+
+.landingabout {
+	font-size: 300%;
+	font-family: "Crimson Text", serif;
+	position: absolute;
+	top: 10%;
+	left: 0;
+	padding: 5%;
+}
+
+img {
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	top: -10;
+}
+
+.draggable {
+	width:500px;
+	height:50px;
+	position:absolute;
+	font-family: "EB Garamond", serif;
+	background-color: white;
+	border: 3px solid black;
+	padding: 10px;
+	box-shadow: 5px 5px 7px #888888;
+}
+#d1 {
+	font-size: 200%;
+	background-color:white;
+	border: 3px solid black;
+	padding: 10px;
+	top: 10%;
+	left: 10%;
+	margin: -100px 0 0 -90px;	
+	box-shadow: 5px 5px 7px #888888;
+	margin: -100px 0 0 -90px;
+}
+#d2 {
+	font-size: 200%;	
+	background-color:white;
+	border: 3px solid black;
+	padding: 10px;
+	top: 15%;
+	left: 10%;
+	margin: -100px 0 0 -90px;
+}
+#d3 {
+	font-size: 200%;	
+	padding: 10px;
+	top: 20%;
+	left: 10%;
+	margin: -100px 0 0 -90px;
+}
+#d4 {
+	font-size: 200%;
+	padding: 10px;
+	top: 25%;
+	left: 10%;
+	margin: -100px 0 0 -90px;
+}
+#d5 {
+	font-size: 200%;	
+	padding: 10px;
+	top: 30%;
+	left: 10%;
+	margin: -100px 0 0 -90px;
+}
+#d6 {
+	font-size: 200%;	
+	padding: 10px;
+	top: 35%;
+	left: 10%;
+	margin: -100px 0 0 -90px;
+}
+#d7 {
+	font-size: 200%;	
+	padding: 10px;
+	top: 40%;
+	left: 10%;
+	margin: -100px 0 0 -90px;
+}
+#d8 {
+	font-size: 200%;	
+	padding: 10px;
+	top: 45%;
+	left: 10%;
+	margin: -100px 0 0 -90px;
+}
+#d9 {
+	font-size: 200%;	
+	padding: 10px;
+	top: 50%;
+	left: 10%;
+	margin: -100px 0 0 -90px;
+}
+#d10 {
+	font-size: 200%;	
+	padding: 10px;
+	top: 55%;
+	left: 10%;
+	margin: -100px 0 0 -90px;
+}
+#d11 {
+	font-size: 200%;	
+	padding: 10px;
+	top: 60%;
+	left: 10%;
+	margin: -100px 0 0 -90px;
+}
+#d12 {
+	font-size: 200%;	
+	padding: 10px;
+	top: 65%;
+	left: 10%;
+	margin: -100px 0 0 -90px;
+}
+#d13 {
+	font-size: 200%;	
+	padding: 10px;
+	top: 70%;
+	left: 10%;
+	margin: -100px 0 0 -90px;
+}
+#d14 {
+	font-size: 200%;	
+	padding: 10px;
+	top: 75%;
+	left: 10%;
+	margin: -100px 0 0 -90px;
+}
+#d15 {
+	font-size: 200%;	
+	padding: 10px;
+	top: 80%;
+	left: 10%;
+	margin: -100px 0 0 -90px;
+}
+#d16 {
+	font-size: 200%;	
+	padding: 10px;
+	top: 85%;
+	left: 10%;
+	margin: -100px 0 0 -90px;
+}
+#d17 {
+	font-size: 200%;	
+	padding: 10px;
+	top: 90%;
+	left: 10%;
+	margin: -100px 0 0 -90px;
+}
+#d18 {
+	font-size: 200%;	
+	padding: 10px;
+	top: 95%;
+	left: 10%;
+	margin: -100px 0 0 -90px;
+}
+#d19 {
+	font-size: 200%;	
+	padding: 10px;
+	top: 100%;
+	left: 10%;
+	margin: -100px 0 0 -90px;
+}
+#d20 {
+	font-size: 200%;	
+	padding: 10px;
+	top: 105%;
+	left: 10%;
+	margin: -100px 0 0 -90px;
+}
+#d21 {
+	font-size: 200%;	
+	padding: 10px;
+	top: 110%;
+	left: 10%;
+	margin: -100px 0 0 -90px;
+}
+#d22 {
+	font-size: 200%;	
+	padding: 10px;
+	top: 115%;
+	left: 10%;
+	margin: -100px 0 0 -90px;
+}
+#d23 {
+	font-size: 200%;	
+	padding: 10px;
+	top: 120%;
+	left: 10%;
+	margin: -100px 0 0 -90px;
+}
+#d24 {
+	font-size: 200%;	
+	padding: 10px;
+	top: 125%;
+	left: 10%;
+	margin: -100px 0 0 -90px;
+}
+#d25 {
+	font-size: 200%;	
+	padding: 10px;
+	top: 130%;
+	left: 10%;
+	margin: -100px 0 0 -90px;
+}
+#d26 {
+	font-size: 200%;	
+	padding: 10px;
+	top: 135%;
+	left: 10%;
+	margin: -100px 0 0 -90px;
+}
+#d27 {
+	font-size: 200%;	
+	padding: 10px;
+	top: 140%;
+	left: 10%;
+	margin: -100px 0 0 -90px;
+}
+#d28 {
+	font-size: 200%;	
+	padding: 10px;
+	top: 145%;
+	left: 10%;
+	margin: -100px 0 0 -90px;
+}
+#d29 {
+	font-size: 200%;	
+	padding: 10px;
+	top: 150%;
+	left: 10%;
+	margin: -100px 0 0 -90px;
+}
+
+
+
+
+
+

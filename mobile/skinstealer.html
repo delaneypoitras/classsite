@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Skin Stealer</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+  <link href="https://fonts.googleapis.com/css?family=Crimson+Text|EB+Garamond" rel="stylesheet">
+</head>
+<body>
+
+<img src="assets/skinstealer.png"> 
+<div class="title">Skin Stealer</div>
+
+	<div class="draggable" id="d1">This evening I unzipped my skin</div>
+	<div class="draggable" id="d2">And carefully unscrewed my head</div>
+	<div class="draggable" id="d3">Exactly as I always do</div>	
+  <div class="draggable" id="d4">When I prepare myself for bed</div> 
+  <div class="draggable" id="d5">And while I slept a coo-coo came</div> 
+  <div class="draggable" id="d6">As nasked as could be</div> 
+  <div class="draggable" id="d7">And put on the skin</div> 
+  <div class="draggable" id="d8">And screwed on the head</div> 
+  <div class="draggable" id="d9">That once belonged to me</div>
+  <div class="draggable" id="d10">Now wearing my feet</div>  
+  <div class="draggable" id="d11">He runs through the street</div>
+  <div class="draggable" id="d12">In a most disgraceful way</div>
+  <div class="draggable" id="d13">Doin' things and sayin' things</div>   
+  <div class="draggable" id="d14">I'd never do or say</div> 
+  <div class="draggable" id="d15">Ticklin' the children</div> 
+  <div class="draggable" id="d16">And kickin' the men</div> 
+  <div class="draggable" id="d17">And dancin' the ladies away</div> 
+  <div class="draggable" id="d18">So if he makes your bright eyes cry</div>
+  <div class="draggable" id="d19">Or makes your poor head spin</div>  
+  <div class="draggable" id="d20">That scoundrel you see</div> 
+  <div class="draggable" id="d21">Is not really me-- </div> 
+  <div class="draggable" id="d22">He's the coo-coo</div> 
+  <div class="draggable" id="d23">Who's wearing my skin</div> 
+
+</body>
+
+<script type="text/javascript">
+
+var nodeList = document.getElementsByClassName('draggable');
+ 
+  for(var i=0;i<nodeList.length;i++) {
+    var obj = nodeList[i];
+    obj.addEventListener('touchmove', function(event) {
+      var touch = event.targetTouches[0];
+      
+      // Place element where the finger is
+      event.target.style.left = touch.pageX + 'px';
+      event.target.style.top = touch.pageY + 'px';
+      event.preventDefault();
+    }, false);
+  }
+
+</script>
+</html>

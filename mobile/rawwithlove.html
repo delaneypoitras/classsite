@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Raw With Love</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+  <link href="https://fonts.googleapis.com/css?family=Crimson+Text|EB+Garamond" rel="stylesheet">
+</head>
+<body>
+
+<img src="assets/sidewalk.jpg"> 
+<div class="title">Raw With Love</div>
+
+	<div class="draggable" id="d1">little dark girl with kind eyes</div>
+	<div class="draggable" id="d2">when it comes time to use the knife</div>
+	<div class="draggable" id="d3">I won't flinch and I won't blame you</div>	
+  <div class="draggable" id="d4">as I drive along the shore alone</div> 
+  <div class="draggable" id="d5">as the palms wave</div> 
+  <div class="draggable" id="d6">the ugly heavy palms</div> 
+  <div class="draggable" id="d7">as the living does not arrive</div> 
+  <div class="draggable" id="d8">as the dead do not leave</div> 
+  <div class="draggable" id="d9">I won't blame you</div>
+  <div class="draggable" id="d10">instead, I will remember the kisses</div>  
+  <div class="draggable" id="d11">our lips raw with love</div>
+  <div class="draggable" id="d12">and how you gave me everything you had</div>
+  <div class="draggable" id="d13">and how I offered what was left of me</div>   
+  <div class="draggable" id="d14">and I will remember your small room</div> 
+  <div class="draggable" id="d15">the feel of you, the light in the window</div> 
+  <div class="draggable" id="d16">your records, your books</div> 
+  <div class="draggable" id="d17">our morning coffee</div> 
+  <div class="draggable" id="d18">our noons, our nights</div>
+  <div class="draggable" id="d19">our bodies spilled together sleeping</div>  
+  <div class="draggable" id="d20">the tiny flowing currents</div> 
+  <div class="draggable" id="d21">immediate and forever</div> 
+  <div class="draggable" id="d22">your leg, my leg</div> 
+  <div class="draggable" id="d23">your arm, my arm</div> 
+  <div class="draggable" id="d24">your smile and the warmth of you</div> 
+  <div class="draggable" id="d25">who made me laugh again</div> 
+  <div class="draggable" id="d26">little dark girl with kind eyes</div>  
+  <div class="draggable" id="d27">you have no knife</div>  
+  <div class="draggable" id="d28">the knife is mine</div>  
+  <div class="draggable" id="d29">and I won't use it yet</div>     
+</body>
+
+<script type="text/javascript">
+
+var nodeList = document.getElementsByClassName('draggable');
+ 
+  for(var i=0;i<nodeList.length;i++) {
+    var obj = nodeList[i];
+    obj.addEventListener('touchmove', function(event) {
+      var touch = event.targetTouches[0];
+      
+      // Place element where the finger is
+      event.target.style.left = touch.pageX + 'px';
+      event.target.style.top = touch.pageY + 'px';
+      event.preventDefault();
+    }, false);
+  }
+
+</script>
+</html>
