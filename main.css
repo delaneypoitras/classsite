@@ -1,0 +1,56 @@
+* {
+	margin: 5%;
+}
+
+.header {
+	font-family: "Acme", sans-serif;
+	font-size: 200%;
+	position: absolute;
+	margin: -100px 0 0 -100px;
+	top: 20%;
+	left: 50%;
+}
+
+.box {
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	top: 10%;
+	left: 30%;
+	transform: rotate(-25deg);
+	box-shadow: 8px 8px 8px #c9c9c9;
+	opacity: 0.5;
+}
+
+.button {
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	top: 50%;
+	left: 40%;
+	transform: rotate(25deg);
+	box-shadow: 8px 8px 8px #c9c9c9;	
+	opacity: 0.5;		
+}
+
+.linking {
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	transform: rotate(-5deg);	
+	box-shadow: 8px 8px 8px #c9c9c9;
+	opacity: 0.5;		
+}
+
+.still {
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	top: 30%;
+	left: 20%;
+	transform: rotate(35deg);
+	box-shadow: 8px 8px 8px #c9c9c9;
+	opacity: 0.5;			
+}
