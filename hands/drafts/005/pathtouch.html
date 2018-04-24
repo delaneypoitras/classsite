@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Follow</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">	
+</head>
+<body>
+
+	<div class="redcircle"></div>
+	<div class="draggable"></div>
+
+    <a href="deepbreath.html">
+    <div class="yellowmenu"></div>
+  </a>  
+
+  <a href="followpath.html">
+    <div class="bluemenu"></div>
+  </a>
+
+  
+  <a href="circular.html">
+    <div class="onesmallblue"></div>
+    <div class="twosmallblue"></div>
+  </a>
+
+
+</body>
+
+<script type="text/javascript">
+
+var nodeList = document.getElementsByClassName('draggable');
+ 
+  for(var i=0;i<nodeList.length;i++) {
+    var obj = nodeList[i];
+    obj.addEventListener('touchmove', function(event) {
+      var touch = event.targetTouches[0];
+      
+      // Place element where the finger is
+      event.target.style.left = touch.pageX + 'px';
+      event.target.style.top = touch.pageY + 'px';
+      event.preventDefault();
+    }, false);
+  }
+
+</script>
+</html>
