@@ -1,6 +1,27 @@
 * {
 	margin: 10px;
 	background-color: black;
+
+}
+
+button {
+	background-color: black;
+	color: white;
+	font-family: "Helvetica", sans-serif;
+	position: absolute;
+	top: 10px;
+	right: -10px;
+	font-size: 600%;
+	border:none;
+}
+
+.divider {
+	background-color: white;
+	height: 10px;
+	width: 1300px;
+	position: absolute;
+	top: 85%;
+	left: 5%;
 }
 
 .breathcircle {
@@ -10,7 +31,7 @@
 	height: 600px;
 	width: 600px;
 	top: 30%;
-	left: 15%;
+	left: 30%;
 	transform: translate(-50%, -50%);
 /*	margin: -100px 0 0 -125px; */
 	position: absolute;
@@ -25,10 +46,10 @@
 		transform: scale(.5);
 	}
 	30% {
-		transform: scale(1.2);
+		transform: scale(2);
 	}
 	60% {
-		transform: scale(1.2);
+		transform: scale(2);
 	}
 	100% {
 		transform: scale(.5);
@@ -51,20 +72,6 @@
   	animation-timing-function: ease-out;
 }
 
-/*@keyframes fingermovefirst {
-	0% {
-		transform: scale(1);
-	}
-	30% {
-		transform: scale(1.5);
-	}
-	60% {
-		transform: scale(1.5);
-	}
-	100% {
-		transform: scale(1);
-	}
-}*/
 
 .breathfingercircle2 {
 	border-radius: 50%;
@@ -82,41 +89,20 @@
   	animation-timing-function: ease-out;
 }
 
-/*@keyframes fingermovesecond {
-	0% {
-		transform: scale(1);
-	}
-	30% {
-		transform: scale(1.5);
-	}
-	60% {
-		transform: scale(1.5);
-	}
-	100% {
-		transform: scale(1);
-	}
-}
-
-
-
-
 /*______________________________________________*/
 
-
-
-
 .circularcircle {
-	border-radius: 50%;
-	background-color: black;
-	border: 20px solid #f9dd22;
-	height: 600px;
-	width: 600px;
-	top: 30%;
-	left: 15%;
+/*	border-radius: 50%; */
+	background-color: #f9dd22;
+/*	border: 20px solid #f9dd22; */
+	height: 1000px;
+	width: 20px;
+	top: 25%;
+	left: 50%;
 	transform: translate(-50%, -50%);
 	position: absolute;
 	animation-name: circularmove;
-	animation-duration: 8s;
+	animation-duration: 10s;
 	animation-iteration-count: infinite;
   	animation-timing-function: ease-out;
 }
@@ -161,11 +147,11 @@
 	border-radius: 50%;
 	background-color: black;
 	border: 20px solid #42b6f4;
-	height: 100px;
-	width: 100px;
-	top: 10%;
-	left: 40%;
-	margin: -130px 0 0 -15px; 
+	height: 150px;
+	width: 150px;
+	top: 5%;
+	left: 50%;
+	transform: translate(-50%, -50%);	
 	position: absolute;
 	animation-name: circularfingermovefirst;
 	animation-duration: 5s;
@@ -177,11 +163,11 @@
 	border-radius: 50%;
 	background-color: black;
 	border: 20px solid #42b6f4;
-	height: 100px;
-	width: 100px;
-	top: 70%;
-	left: 40%;
-	margin: 100px 0 0 -15px;
+	height: 150px;
+	width: 150px;
+	top: 92%;
+	left: 50%;
+	transform: translate(-50%, -50%);	
 	position: absolute;
 	animation-name: circularfingermovesecond;
 	animation-duration: 5s;
@@ -266,7 +252,7 @@
 		transform: translate(400px,500px);
 	}
 	95% {
-		transform: translate(100px,0);
+		transform: translate(100px,50px);
 	}
 	100% {
 		transform: translateX(0);
@@ -280,10 +266,10 @@
 
 .draggable {
 	border-radius: 50%;
-	background-color: black;
-	border: 20px solid #42b6f4;
-	height: 100px;
-	width: 100px;
+	background-color: transparent;
+	border: 20px solid #98d651;
+	height: 200px;
+	width: 200px;
 	top: 0%;
 	left: 0%;
 /*	margin: 100px 0 0 -15px; */
@@ -324,7 +310,7 @@
 	left: 50%;
 	transform: translate(-50%,-50%);
 	background-color: black;
-	border: 15px solid #42b6f4;
+	border: 15px solid orange;
 	border-radius: 50%
 }
 
@@ -370,8 +356,8 @@
  .redcircle {
 	border-radius: 50%;
 	background-color: red;
-	height: 100px;
-	width: 100px;
+	height: 175px;
+	width: 175px;
 	top: 0%;
 	left: 0%;
 	position: absolute;
@@ -384,7 +370,7 @@
 		transform: translate(0);
 	}
 	5% {
-		transform: translate(500px,0px);	
+		transform: translate(500px,200px);	
 	}
 	10% {
 		transform: translate(300px,700px);		
@@ -435,7 +421,7 @@
 		transform: translate(400px,500px);
 	}
 	95% {
-		transform: translate(100px,0);
+		transform: translate(100px,50px);
 	}
 	100% {
 		transform: translateX(0);
@@ -456,7 +442,7 @@
 	border-radius: 50%	
 }
 
-.bluemenu {
+.orangemenu {
 	height: 100px;
 	width: 100px;
 	position: absolute;
@@ -464,7 +450,7 @@
 	left: 30%;
 	transform: translate(-50%,-50%);
 	background-color: black;
-	border: 15px solid #42b6f4;
+	border: 15px solid orange;
 	border-radius: 50%
 }
 
@@ -504,10 +490,187 @@
 	border-radius: 50%	
 }
 
+/*______________________________________________*/
 
 
+.stabletealcircle {
+	border-radius: 50%;
+	background-color: black;
+	border: 20px solid #42f4dc;
+	height: 200px;
+	width: 200px;
+	top: 70%;
+	right: 200px;
+	position: absolute;
+}
+
+.stableorangesquare {
+	background-color: black;
+	border: 20px solid #f4aa42;
+	height: 200px;
+	width: 200px;
+	top: 30%;
+	left: 10%;
+	position: absolute;
+}
+
+.stablegreencircle {
+	border-radius: 50%;
+	background-color: black;
+	border: 20px solid #98d651;
+	height: 200px;
+	width: 300px;
+	top: 55%;
+	left:25%;
+	position: absolute;
+}
+
+.stablepinksquare {
+	background-color: black;
+	border: 20px solid #e876ba;
+	height: 225px;
+	width: 175px;
+	top: 70%;
+	left: 5%;
+	position: absolute;
+}
+
+.stableredcircle {
+	background-color: black;
+	border: 25px solid #f44b42;
+	border-radius: 50%;
+	height: 250px;
+	width: 250px;
+	top: 25%;
+	left: 45%;
+	position: absolute;
+}
+
+.stableyellowsquare {
+	background-color: black;
+	border: 20px solid #f4df42;
+	height: 205px;
+	width: 260px;
+	top: 50%;
+	left: 70%;
+	position: absolute;
+}
+
+.stablebluecircle {
+	border-radius: 50%;
+	background-color: black;
+	border: 20px solid #42a7f4;
+	height: 300px;
+	width: 200px;
+	top: 10%;
+	left:5%;
+	position: absolute;
+}
+
+.stablepurplesquare {
+	background-color: black;
+	border: 25px solid #9373f4;
+	height: 225px;
+	width: 225px;
+	top: 20%;
+	left: 75%;
+	position: absolute;
+}
+
+.stabletealsquare {
+	background-color: black;
+	border: 20px solid #42f4dc;
+	height: 200px;
+	width: 200px;
+	top: 2%;
+	left: 50%;
+	position: absolute;
+}
 
 
+/*______________________________________________*/
 
 
+.draggablepaths {
+	position: absolute;
+}
+
+#dcircle {
+	background-color: #42f4dc;
+	width: 200px;
+	height: 200px;
+	top: 2%;
+	left: 20%;
+	border-radius: 50%;
+}
+
+#dsquare {
+	background-color: #f4aa42;
+	width: 200px;
+	height: 200px;	
+	top:45%;
+	left: 45%;
+}
+
+#dcircle2 {
+	background-color: #98d651;
+	width: 300px;
+	height: 200px;	
+	top: 5%;
+	left:55%;
+	border-radius: 50%;
+}
+
+#dsquare2 {
+	background-color: #e876ba;
+	width: 175px;
+	height: 225px;	
+	top:35%;
+	left: 75%;
+}
+
+#dcircle3 {
+	background-color: #f44b42;
+	border-radius: 50%;
+	height: 250px;
+	width: 250px;
+	top: 50%;
+	left: 5%;
+}
+
+#dsquare3 {
+	background-color: #f4df42;
+	height: 205px;
+	width: 260px;
+	top: 15%;
+	left: 25%;
+}
+
+#dcircle4 {
+	border-radius: 50%;
+	background-color: #42a7f4;
+	height: 300px;
+	width: 200px;
+	top: 60%;
+	left:55%;
+	position: absolute;	
+}
+
+#dsquare4 {
+	background-color: #9373f4;
+	height: 225px;
+	width: 225px;
+	top: 70%;
+	left: 35%;
+	position: absolute;	
+}
+
+#dsquare5 {
+	background-color: #42f4dc;
+	height: 200px;
+	width: 200px;
+	top: 40%;
+	left: 20%;
+	position: absolute;	
+}
 

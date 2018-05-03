@@ -4,11 +4,34 @@
 	<title>Follow</title>
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">	
+  <meta name="viewport" content="width=device-width, initial-scale=.25, maximum-scale=1.0, user-scalable=no" />
 </head>
 <body>
 
+  <button onclick="aboutAlert1()">info</button>
+
+<!--______________________________________-->  
+
 	<div class="redcircle"></div>
 	<div class="draggable"></div>
+
+<!--______________________________________-->  
+
+  <div class="divider"></div>
+
+    <a href="deepbreath.html">
+    <div class="yellowmenu"></div>
+  </a>  
+
+  <a href="followpath.html">
+    <div class="orangemenu"></div>
+  </a>
+
+  
+  <a href="circular.html">
+    <div class="onesmallblue"></div>
+    <div class="twosmallblue"></div>
+  </a>
 
 
 </body>
@@ -29,5 +52,10 @@ var nodeList = document.getElementsByClassName('draggable');
     }, false);
   }
 
+  function aboutAlert1() {
+    alert("Drag the green circle to chase the red one.");
+  }
 </script>
+
+
 </html>

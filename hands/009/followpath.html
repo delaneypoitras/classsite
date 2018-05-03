@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Shapes</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">	
+	<meta name="viewport" content="width=device-width, initial-scale=.25, maximum-scale=1.0, user-scalable=no" />	
+</head>
+<body>
+
+
+	<button onclick="aboutAlert1()">info</button>
+
+<!-- teal circle -->
+	<div class="stabletealcircle"></div>
+	<div class="draggablepaths" id="dcircle"></div>	
+
+
+<!-- orange square -->
+	<div class="stableorangesquare"></div>
+	<div class="draggablepaths" id="dsquare"></div>
+
+<!-- teal square 
+	<div class="stabletealsquare"></div>
+	<div class="draggablepaths" id="dsquare5"></div>	-->	
+<!-- green circle -->
+	<div class="stablegreencircle"></div>
+	<div class="draggablepaths" id="dcircle2"></div>		
+<!-- pink square -->
+	<div class="stablepinksquare"></div>
+	<div class="draggablepaths" id="dsquare2"></div>
+
+<!-- red circle -->
+	<div class="stableredcircle"></div>
+	<div class="draggablepaths" id="dcircle3"></div>
+
+<!-- yellow square -->
+	<div class="stableyellowsquare"></div>
+	<div class="draggablepaths" id="dsquare3"></div>
+
+<!-- blue oval -->
+	<div class="stablebluecircle"></div>
+	<div class="draggablepaths" id="dcircle4"></div>
+
+<!-- purple square -->
+	<div class="stablepurplesquare"></div>
+	<div class="draggablepaths" id="dsquare4"></div>	
+
+				
+
+
+<!--______________________________________-->
+
+	<div class="divider"></div>
+
+	<a href="deepbreath.html">
+		<div class="yellowmenu"></div>
+	</a>	
+
+	<a href="circular.html">
+		<div class="onesmallblue"></div>
+		<div class="twosmallblue"></div>
+	</a>
+	
+	<a href="pathtouch.html">
+		<div class="redmenu"></div>	
+	</a>
+</body>
+
+<script>
+
+var nodeList = document.getElementsByClassName('draggablepaths');
+ 
+  for(var i=0;i<nodeList.length;i++) {
+    var obj = nodeList[i];
+    obj.addEventListener('touchmove', function(event) {
+      var touch = event.targetTouches[0];
+      
+      // Place element where the finger is
+      event.target.style.left = touch.pageX + 'px';
+      event.target.style.top = touch.pageY + 'px';
+      event.preventDefault();
+    }, false);
+  }
+
+  function aboutAlert1() {
+		alert("Place the shape perfectly in it's corresponding border.");
+	}
+
+</script>
+</html>

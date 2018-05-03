@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Fidget</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">	
+	<meta name="viewport" content="width=device-width, initial-scale=.25, maximum-scale=1.0, user-scalable=no" />	
+</head>
+<body>
+
+<button onclick="aboutAlert1()">info</button>
+
+<!--______________________________________-->
+
+	<div class="circularcircle">
+		<div class="circularfingercircle"></div>
+		<div class="circularfingercircle2"></div>
+	</div>
+
+<!--______________________________________-->
+
+	<div class="divider"></div>	
+
+	<a href="deepbreath.html">
+		<div class="yellowmenu"></div>
+	</a>	
+
+	<a href="followpath.html">
+		<div class="orangemenu"></div>
+	</a>
+
+	<a href="pathtouch.html">
+		<div class="redmenu"></div>	
+	</a>
+
+</body>
+
+<script>
+
+var nodeList = document.getElementsByClassName('draggablepaths');
+ 
+  for(var i=0;i<nodeList.length;i++) {
+    var obj = nodeList[i];
+    obj.addEventListener('touchmove', function(event) {
+      var touch = event.targetTouches[0];
+      
+      // Place element where the finger is
+      event.target.style.left = touch.pageX + 'px';
+      event.target.style.top = touch.pageY + 'px';
+      event.preventDefault();
+    }, false);
+  }
+
+  function aboutAlert1() {
+		alert("Place fingers on the blue circles and follow.");
+	}
+
+</script>
+
+</html>
