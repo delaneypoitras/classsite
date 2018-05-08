@@ -2,55 +2,124 @@
 	margin: 5%;
 }
 
-.header {
-	font-family: "Acme", sans-serif;
-	font-size: 200%;
-	position: absolute;
-	margin: -100px 0 0 -100px;
-	top: 20%;
-	left: 50%;
+a {
+	text-decoration: none;
+	color: black;
 }
 
-.box {
-	width: 200px;
-	height: 200px;
-	position: absolute;
-	top: 10%;
-	left: 30%;
-	transform: rotate(-25deg);
-	box-shadow: 8px 8px 8px #c9c9c9;
+a:hover {
 	opacity: 0.5;
 }
 
-.button {
-	width: 200px;
-	height: 200px;
+/*___________________________________________________*/
+
+.indexheader {
+	font-family: 'Helvetica', sans-serif;
+	font-size: 200%;
+	position: absolute;
+	top: 2%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.about {
+	font-family: 'Helvetica', sans-serif;
+	position: absolute;
+	top: 10%;
+	left: 5%;
+}
+
+.aboutinfo {
+	font-family: monospace;
+	position: absolute;
+	top: 15%;
+	left: 5%;
+	width: 20%;
+}
+
+.studioheader {
+	font-family: 'Helvetica', sans-serif;
+	position: absolute;
+	top: 10%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.labheader {
+	font-family: 'Helvetica', sans-serif;
 	position: absolute;
 	top: 50%;
-	left: 40%;
-	transform: rotate(25deg);
-	box-shadow: 8px 8px 8px #c9c9c9;	
-	opacity: 0.5;		
-}
-
-.linking {
-	width: 200px;
-	height: 200px;
-	position: absolute;
-	top: 30%;
 	left: 50%;
-	transform: rotate(-5deg);	
-	box-shadow: 8px 8px 8px #c9c9c9;
-	opacity: 0.5;		
+	transform: translate(-50%,-50%);	
 }
 
-.still {
-	width: 200px;
-	height: 200px;
+/*___________________________________________________*/
+
+.studiolist {
 	position: absolute;
-	top: 30%;
-	left: 20%;
-	transform: rotate(35deg);
-	box-shadow: 8px 8px 8px #c9c9c9;
-	opacity: 0.5;			
+	font-family: monospace;
+	left: 50%;
+	transform: translate(-50%,-50%);
 }
+
+#malevich {
+	top: 15%;
+}
+
+#linking {
+	top: 20%;
+}
+
+#stilllife {
+	top: 25%;
+}
+
+#clock {
+	top: 30%;
+}
+
+#responsive {
+	top: 35%;
+}
+
+#containers {
+	top: 40%;
+}
+
+#hands {
+	top: 45%;
+}
+
+/*___________________________________________________*/
+
+.lablist {
+	position: absolute;
+	font-family: monospace;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+#htmlpages {
+	top: 55%;
+}
+
+#themix {
+	top: 60%;
+}
+
+#filtering {
+	top: 65%;
+}
+
+#mobile {
+	top: 70%;
+}
+
+
+
+
+
+
+
+
+
