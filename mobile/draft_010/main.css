@@ -1,0 +1,725 @@
+*{
+	font-family: monospace;
+}
+
+.title {
+	font-size: 300%;
+
+	position: absolute;
+	top: 5%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:visited {
+	color: black;
+}
+
+.testinglink {
+	background-color: #d7dde5;
+	border: 2px solid black;
+	height: 150px;
+	width: 400px;
+	position: absolute;
+	top: 35%;
+	left: 25%;
+	padding: 2%;
+	font-size: 300%;
+	font-family: monospace;
+	text-decoration: none;
+}
+
+.testinglink2 {
+	background-color: #d7dde5;
+	border: 2px solid black;
+	height: 150px;
+	width: 400px;
+	position: absolute;
+	top: 50%;
+	left: 25%;
+	padding: 2%;
+	font-size: 300%;
+	font-family: "Crimson Text", serif;
+	text-decoration: none;
+}
+
+.testinglink3 {
+	background-color: #d7dde5;
+	border: 2px solid black;
+	height: 150px;
+	width: 400px;
+	position: absolute;
+	top: 65%;
+	left: 25%;
+	padding: 2%;
+	font-size: 300%;
+	font-family: "Crimson Text", serif;
+	text-decoration: none;
+}
+
+.landingheader {
+	font-size: 400%;
+	font-family: monospace;
+	overflow:hidden;
+	border-right: .15em solid gray;
+	white-space: nowrap;
+	margin: 0 auto;
+	letter-spacing: .15em;
+	animation: 
+		typing 4.5s steps(15, end),
+		blink-caret .5s step-end infinite;	
+	position: absolute;
+	top: 12%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 55% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: gray }
+}
+
+.landingabout {
+	font-size: 300%;
+
+	position: absolute;
+	top: 15%;
+	left: 20%;
+	padding: 5%;
+}
+
+img {
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	top: -10;
+}
+
+.draggable {
+	width:500px;
+	height:50px;
+	position:absolute;
+	font-family: "EB Garamond", serif;
+	background-color: #d7dde5;
+	border: 3px solid black;
+	padding: 10px;
+
+}
+#d1 {
+	font-size: 200%;
+	border: 3px solid black;
+	padding: 10px;
+	top: 15%;
+	left: 33%;
+	margin: -100px 0 0 -90px;	
+	margin: -100px 0 0 -90px;
+}
+#d2 {
+	font-size: 200%;	
+	border: 3px solid black;
+	padding: 10px;
+	top: 20%;
+	left: 33%;
+	margin: -100px 0 0 -90px;
+}
+#d3 {
+	font-size: 200%;	
+	padding: 10px;
+	top: 25%;
+	left: 33%;
+	margin: -100px 0 0 -90px;
+}
+#d4 {
+	font-size: 200%;
+	padding: 10px;
+	top: 30%;
+	left: 33%;
+	margin: -100px 0 0 -90px;
+}
+#d5 {
+	font-size: 200%;	
+	padding: 10px;
+	top: 35%;
+	left: 33%;
+	margin: -100px 0 0 -90px;
+}
+#d6 {
+	font-size: 200%;	
+	padding: 10px;
+	top: 40%;
+	left: 33%;
+	margin: -100px 0 0 -90px;
+}
+#d7 {
+	font-size: 200%;	
+	padding: 10px;
+	top: 45%;
+	left: 33%;
+	margin: -100px 0 0 -90px;
+}
+#d8 {
+	font-size: 200%;	
+	padding: 10px;
+	top: 50%;
+	left: 33%;
+	margin: -100px 0 0 -90px;
+}
+#d9 {
+	font-size: 200%;	
+	padding: 10px;
+	top: 55%;
+	left: 33%;
+	margin: -100px 0 0 -90px;
+}
+#d10 {
+	font-size: 200%;	
+	padding: 10px;
+	top: 60%;
+	left: 33%;
+	margin: -100px 0 0 -90px;
+}
+#d11 {
+	font-size: 200%;	
+	padding: 10px;
+	top: 65%;
+	left: 33%;
+	margin: -100px 0 0 -90px;
+}
+#d12 {
+	font-size: 200%;	
+	padding: 10px;
+	top: 70%;
+	left: 33%;
+	margin: -100px 0 0 -90px;
+}
+#d13 {
+	font-size: 200%;	
+	padding: 10px;
+	top: 75%;
+	left: 33%;
+	margin: -100px 0 0 -90px;
+}
+#d14 {
+	font-size: 200%;	
+	padding: 10px;
+	top: 80%;
+	left: 33%;
+	margin: -100px 0 0 -90px;
+}
+#d15 {
+	font-size: 200%;	
+	padding: 10px;
+	top: 85%;
+	left: 33%;
+	margin: -100px 0 0 -90px;
+}
+#d16 {
+	font-size: 200%;	
+	padding: 10px;
+	top: 90%;
+	left: 33%;
+	margin: -100px 0 0 -90px;
+}
+#d17 {
+	font-size: 200%;	
+	padding: 10px;
+	top: 95%;
+	left: 33%;
+	margin: -100px 0 0 -90px;
+}
+#d18 {
+	font-size: 200%;	
+	padding: 10px;
+	top: 100%;
+	left: 33%;
+	margin: -100px 0 0 -90px;
+}
+#d19 {
+	font-size: 200%;	
+	padding: 10px;
+	top: 105%;
+	left: 33%;
+	margin: -100px 0 0 -90px;
+}
+#d20 {
+	font-size: 200%;	
+	padding: 10px;
+	top: 110%;
+	left: 33%;
+	margin: -100px 0 0 -90px;
+}
+#d21 {
+	font-size: 200%;	
+	padding: 10px;
+	top: 115%;
+	left: 33%;
+	margin: -100px 0 0 -90px;
+}
+#d22 {
+	font-size: 200%;	
+	padding: 10px;
+	top: 120%;
+	left: 33%;
+	margin: -100px 0 0 -90px;
+}
+#d23 {
+	font-size: 200%;	
+	padding: 10px;
+	top: 125%;
+	left: 33%;
+	margin: -100px 0 0 -90px;
+}
+#d24 {
+	font-size: 200%;	
+	padding: 10px;
+	top: 130%;
+	left: 33%;
+	margin: -100px 0 0 -90px;
+}
+#d25 {
+	font-size: 200%;	
+	padding: 10px;
+	top: 135%;
+	left: 33%;
+	margin: -100px 0 0 -90px;
+}
+#d26 {
+	font-size: 200%;	
+	padding: 10px;
+	top: 140%;
+	left: 33%;
+	margin: -100px 0 0 -90px;
+}
+#d27 {
+	font-size: 200%;	
+	padding: 10px;
+	top: 145%;
+	left: 33%;
+	margin: -100px 0 0 -90px;
+}
+#d28 {
+	font-size: 200%;	
+	padding: 10px;
+	top: 150%;
+	left: 33%;
+	margin: -100px 0 0 -90px;
+}
+#d29 {
+	font-size: 200%;	
+	padding: 10px;
+	top: 155%;
+	left: 33%;
+	margin: -100px 0 0 -90px;
+}
+
+.draggablediy {
+	width:110px;
+	height:35px;
+	position:absolute;
+	font-family: "EB Garamond", serif;
+	background-color: #d7dde5;
+	border: 3px solid black;
+	padding: 10px;
+}
+#y1 {
+	font-size: 200%;
+	padding: 10px;
+	top: 15%;
+	left: 33%;
+	margin: -100px 0 0 -90px;	
+}
+#y2 {
+	font-size: 200%;	
+	padding: 10px;
+	top: 15%;
+	left: 48%;
+	margin: -100px 0 0 -90px;
+}
+#y3 {
+	font-size: 200%;	
+	padding: 10px;
+	top: 15%;
+	left: 63%;
+	margin: -100px 0 0 -90px;
+}
+#y4 {
+	font-size: 200%;
+	padding: 10px;
+	top: 15%;
+	left: 78%;
+	margin: -100px 0 0 -90px;
+}
+#y5 {
+	font-size: 200%;	
+	padding: 10px;
+	top: 15%;
+	left: 93%;
+	margin: -100px 0 0 -90px;
+}
+#y6 {
+	font-size: 200%;	
+	padding: 10px;
+	top: 20%;
+	left: 33%;
+	margin: -100px 0 0 -90px;
+}
+#y7 {
+	font-size: 200%;	
+	padding: 10px;
+	top: 20%;
+	left: 48%;
+	margin: -100px 0 0 -90px;
+}
+#y8 {
+	font-size: 200%;	
+	padding: 10px;
+	top: 20%;
+	left: 63%;
+	margin: -100px 0 0 -90px;
+}
+#y9 {
+	font-size: 200%;	
+	padding: 10px;
+	top: 20%;
+	left: 78%;
+	margin: -100px 0 0 -90px;
+}
+#y10 {
+	font-size: 200%;	
+	padding: 10px;
+	top: 20%;
+	left: 93%;
+	margin: -100px 0 0 -90px;
+}
+#y11 {
+	font-size: 200%;	
+	padding: 10px;
+	top: 25%;
+	left: 33%;
+	margin: -100px 0 0 -90px;
+}
+#y12 {
+	font-size: 200%;	
+	padding: 10px;
+	top: 25%;
+	left: 48%;
+	margin: -100px 0 0 -90px;
+}
+#y13 {
+	font-size: 200%;	
+	padding: 10px;
+	top: 25%;
+	left: 63%;
+	margin: -100px 0 0 -90px;
+}
+#y14 {
+	font-size: 200%;	
+	padding: 10px;
+	top: 25%;
+	left: 78%;
+	margin: -100px 0 0 -90px;
+}
+#y15 {
+	font-size: 200%;	
+	padding: 10px;
+	top: 25%;
+	left: 93%;
+	margin: -100px 0 0 -90px;
+}
+#y16 {
+	font-size: 200%;	
+	padding: 10px;
+	top: 30%;
+	left: 33%;
+	margin: -100px 0 0 -90px;
+}
+#y17 {
+	font-size: 200%;	
+	padding: 10px;
+	top: 30%;
+	left: 48%;
+	margin: -100px 0 0 -90px;
+}
+#y18 {
+	font-size: 200%;	
+	padding: 10px;
+	top: 30%;
+	left: 63%;
+	margin: -100px 0 0 -90px;
+}
+#y19 {
+	font-size: 200%;	
+	padding: 10px;
+	top: 30%;
+	left: 78%;
+	margin: -100px 0 0 -90px;
+}
+#y20 {
+	font-size: 200%;	
+	padding: 10px;
+	top: 30%;
+	left: 93%;
+	margin: -100px 0 0 -90px;
+}
+#y21 {
+	font-size: 200%;	
+	padding: 10px;
+	top: 35%;
+	left: 33%;
+	margin: -100px 0 0 -90px;
+}
+#y22 {
+	font-size: 200%;	
+	padding: 10px;
+	top: 35%;
+	left: 48%;
+	margin: -100px 0 0 -90px;
+}
+#y23 {
+	font-size: 200%;	
+	padding: 10px;
+	top: 35%;
+	left: 63%;
+	margin: -100px 0 0 -90px;
+}
+#y24 {
+	font-size: 200%;	
+	padding: 10px;
+	top: 35%;
+	left: 78%;
+	margin: -100px 0 0 -90px;
+}
+#y25 {
+	font-size: 200%;	
+	padding: 10px;
+	top: 35%;
+	left: 93%;
+	margin: -100px 0 0 -90px;
+}
+#y26 {
+	font-size: 200%;	
+	padding: 10px;
+	top: 40%;
+	left: 33%;
+	margin: -100px 0 0 -90px;
+}
+#y27 {
+	font-size: 200%;	
+	padding: 10px;
+	top: 40%;
+	left: 48%;
+	margin: -100px 0 0 -90px;
+}
+#y28 {
+	font-size: 200%;	
+	padding: 10px;
+	top: 40%;
+	left: 63%;
+	margin: -100px 0 0 -90px;
+}
+#y29 {
+	font-size: 200%;	
+	padding: 10px;
+	top: 40%;
+	left: 78%;
+	margin: -100px 0 0 -90px;
+}
+#y30 {
+	font-size: 200%;	
+	padding: 10px;
+	top: 40%;
+	left: 93%;
+	margin: -100px 0 0 -90px;
+}
+#y31 {
+	font-size: 200%;	
+	padding: 10px;
+	top: 45%;
+	left: 33%;
+	margin: -100px 0 0 -90px;
+}
+#y32 {
+	font-size: 200%;	
+	padding: 10px;
+	top: 45%;
+	left: 48%;
+	margin: -100px 0 0 -90px;
+}
+#y33 {
+	font-size: 200%;	
+	padding: 10px;
+	top: 45%;
+	left: 63%;
+	margin: -100px 0 0 -90px;
+}
+#y34 {
+	font-size: 200%;	
+	padding: 10px;
+	top: 45%;
+	left: 78%;
+	margin: -100px 0 0 -90px;
+}
+#y35 {
+	font-size: 200%;	
+	padding: 10px;
+	top: 45%;
+	left: 93%;
+	margin: -100px 0 0 -90px;
+}
+#y36 {
+	font-size: 200%;	
+	padding: 10px;
+	top: 50%;
+	left: 33%;
+	margin: -100px 0 0 -90px;
+}
+#y37 {
+	font-size: 200%;	
+	padding: 10px;
+	top: 50%;
+	left: 48%;
+	margin: -100px 0 0 -90px;
+}
+#y38 {
+	font-size: 200%;	
+	padding: 10px;
+	top: 50%;
+	left: 63%;
+	margin: -100px 0 0 -90px;
+}
+#y39 {
+	font-size: 200%;	
+	padding: 10px;
+	top: 50%;
+	left: 78%;
+	margin: -100px 0 0 -90px;
+}
+#y40 {
+	font-size: 200%;	
+	padding: 10px;
+	top: 50%;
+	left: 93%;
+	margin: -100px 0 0 -90px;
+}
+#y41 {
+	font-size: 200%;	
+	padding: 10px;
+	top: 55%;
+	left: 33%;
+	margin: -100px 0 0 -90px;
+}
+#y42 {
+	font-size: 200%;	
+	padding: 10px;
+	top: 55%;
+	left: 48%;
+	margin: -100px 0 0 -90px;
+}
+#y43 {
+	font-size: 200%;	
+	padding: 10px;
+	top: 55%;
+	left: 63%;
+	margin: -100px 0 0 -90px;
+}
+#y44 {
+	font-size: 200%;	
+	padding: 10px;
+	top: 55%;
+	left: 78%;
+	margin: -100px 0 0 -90px;
+}
+#y45 {
+	font-size: 200%;	
+	padding: 10px;
+	top: 55%;
+	left: 93%;
+	margin: -100px 0 0 -90px;
+}
+#y46 {
+	font-size: 200%;	
+	padding: 10px;
+	top: 60%;
+	left: 33%;
+	margin: -100px 0 0 -90px;
+}
+#y47 {
+	font-size: 200%;	
+	padding: 10px;
+	top: 60%;
+	left: 48%;
+	margin: -100px 0 0 -90px;
+}
+#y48 {
+	font-size: 200%;	
+	padding: 10px;
+	top: 60%;
+	left: 63%;
+	margin: -100px 0 0 -90px;
+}
+#y49 {
+	font-size: 200%;	
+	padding: 10px;
+	top: 60%;
+	left: 78%;
+	margin: -100px 0 0 -90px;
+}
+#y50 {
+	font-size: 200%;	
+	padding: 10px;
+	top: 60%;
+	left: 93%;
+	margin: -100px 0 0 -90px;
+}
+#y51 {
+	font-size: 200%;	
+	padding: 10px;
+	top: 65%;
+	left: 33%;
+	margin: -100px 0 0 -90px;
+}
+#y52 {
+	font-size: 200%;	
+	padding: 10px;
+	top: 65%;
+	left: 48%;
+	margin: -100px 0 0 -90px;
+}
+#y53 {
+	font-size: 200%;	
+	padding: 10px;
+	top: 65%;
+	left: 63%;
+	margin: -100px 0 0 -90px;
+}
+#y54 {
+	font-size: 200%;	
+	padding: 10px;
+	top: 65%;
+	left: 78%;
+	margin: -100px 0 0 -90px;
+}
+#y55 {
+	font-size: 200%;	
+	padding: 10px;
+	top: 65%;
+	left: 93%;
+	margin: -100px 0 0 -90px;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>DIY</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+  <link href="https://fonts.googleapis.com/css?family=Crimson+Text|EB+Garamond" rel="stylesheet">
+</head>
+<body>
+
+<img src="assets/paper.jpg"> 
+<div class="title">DIY</div>
+
+	<div class="draggablediy" id="y1">a</div>
+	<div class="draggablediy" id="y2">am</div>
+	<div class="draggablediy" id="y3">I</div>	
+  <div class="draggablediy" id="y4">I</div> 
+  <div class="draggablediy" id="y5">in</div> 
+  <div class="draggablediy" id="y6">me</div> 
+  <div class="draggablediy" id="y7">me</div> 
+  <div class="draggablediy" id="y8">my</div> 
+  <div class="draggablediy" id="y9">my</div>
+  <div class="draggablediy" id="y10">be</div>  
+  <div class="draggablediy" id="y11">be</div>
+  <div class="draggablediy" id="y12">and</div>
+  <div class="draggablediy" id="y13">are</div>   
+  <div class="draggablediy" id="y14">but</div> 
+  <div class="draggablediy" id="y15">big</div> 
+  <div class="draggablediy" id="y16">can</div> 
+  <div class="draggablediy" id="y17">end</div> 
+  <div class="draggablediy" id="y18">for</div>
+  <div class="draggablediy" id="y19">his</div>  
+  <div class="draggablediy" id="y20">hers</div> 
+  <div class="draggablediy" id="y21">theirs</div> 
+  <div class="draggablediy" id="y22">mad</div> 
+  <div class="draggablediy" id="y23">sad</div> 
+  <div class="draggablediy" id="y24">happy</div> 
+  <div class="draggablediy" id="y25">beautiful</div> 
+  <div class="draggablediy" id="y26">coffee</div>  
+  <div class="draggablediy" id="y27">sea</div>  
+  <div class="draggablediy" id="y28">love</div>  
+  <div class="draggablediy" id="y29">sun</div> 
+  <div class="draggablediy" id="y30">the</div>
+  <div class="draggablediy" id="y31">the</div> 
+  <div class="draggablediy" id="y32">able</div> 
+  <div class="draggablediy" id="y33">too</div>   
+  <div class="draggablediy" id="y34">wait</div>
+  <div class="draggablediy" id="y35">please</div> 
+  <div class="draggablediy" id="y36">come</div>   
+  <div class="draggablediy" id="y37">back</div>
+  <div class="draggablediy" id="y38">smoke</div>
+  <div class="draggablediy" id="y39">sun</div> 
+  <div class="draggablediy" id="y40">burn</div>   
+  <div class="draggablediy" id="y41">deep</div>         
+  <div class="draggablediy" id="y42">flowers</div>
+  <div class="draggablediy" id="y43">fear</div> 
+  <div class="draggablediy" id="y44">never</div>  
+  <div class="draggablediy" id="y45">have</div>  
+  <div class="draggablediy" id="y46">heard</div>  
+  <div class="draggablediy" id="y47">what</div>
+  <div class="draggablediy" id="y48">to</div> 
+  <div class="draggablediy" id="y49">person</div> 
+  <div class="draggablediy" id="y50">people</div>  
+  <div class="draggablediy" id="y51">who</div>   
+  <div class="draggablediy" id="y52">own</div>
+  <div class="draggablediy" id="y53">enemy</div> 
+  <div class="draggablediy" id="y54">unable</div>
+  <div class="draggablediy" id="y55">give</div>        
+
+
+</body>
+
+<script type="text/javascript">
+
+var nodeList = document.getElementsByClassName('draggablediy');
+ 
+  for(var i=0;i<nodeList.length;i++) {
+    var obj = nodeList[i];
+    obj.addEventListener('touchmove', function(event) {
+      var touch = event.targetTouches[0];
+      
+      // Place element where the finger is
+      event.target.style.left = touch.pageX + 'px';
+      event.target.style.top = touch.pageY + 'px';
+      event.preventDefault();
+    }, false);
+  }
+
+</script>
+</html>
