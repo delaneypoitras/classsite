@@ -1,6 +1,7 @@
 * {
 	margin: 5%;
 	font-family: monospace;
+	background-color: #f4e542;		
 }
 
 a {
@@ -13,8 +14,10 @@ a:hover {
 }
 
 .homebutton {
-	font-family: monospace;
+	font-family: 'Francois One', 'Helvetica', sans-serif;
 	position: fixed;
 	bottom: 0;
 	left: 0;
+	color: #f47142;
+	font-size: 150%;
 }

@@ -1,5 +1,6 @@
 * {
-	margin: 5%;
+	margin: 10px;
+	background-color: #f4e542;
 }
 
 a {
@@ -11,44 +12,74 @@ a:hover {
 	opacity: 0.5;
 }
 
+.split {
+	height: 70%;
+	width: 25%;
+	position: fixed;
+	z-index: 1;
+	top: 5%;
+	overflow-x: hidden;
+}
+
+.left {
+	left: 0;
+}
+
+.center {
+	left: 35%;
+	top: 5%;
+}
+
+.right{
+	left: 70%;
+	top: 2%;	
+}
+
+
 /*___________________________________________________*/
 
 .indexheader {
-	font-family: 'Helvetica', sans-serif;
-	font-size: 200%;
+	font-family: 'Francois One', 'Helvetica', sans-serif;
+	color: #f47142;
+	font-size: 600%;
 	position: absolute;
-	top: 2%;
-	left: 50%;
-	transform: translate(-50%,-50%);
+	bottom: 0;
+	right: 2%;
 }
 
 .about {
-	font-family: 'Helvetica', sans-serif;
-	position: absolute;
+	font-family: 'Francois One', 'Helvetica', sans-serif;
+	position: relative;
+	color: #f47142;
+	font-size: 150%;
 	top: 10%;
 	left: 5%;
 }
 
 .aboutinfo {
 	font-family: monospace;
-	position: absolute;
-	top: 15%;
+	position: relative;
+	top: 25%;
 	left: 5%;
-	width: 20%;
+
 }
 
 .studioheader {
-	font-family: 'Helvetica', sans-serif;
-	position: absolute;
-	top: 10%;
+	font-family: 'Francois One', 'Helvetica', sans-serif;
+	color: #f47142;
+	position: relative;
+	font-size: 150%;
+	top: 15%;
 	left: 50%;
 	transform: translate(-50%,-50%);
 }
 
 .labheader {
-	font-family: 'Helvetica', sans-serif;
-	position: absolute;
-	top: 50%;
+	font-family: 'Francois One', 'Helvetica', sans-serif;
+	color: #f47142;
+	position: relative;
+	font-size: 150%;
+	top: 15%;
 	left: 50%;
 	transform: translate(-50%,-50%);	
 }
@@ -56,44 +87,44 @@ a:hover {
 /*___________________________________________________*/
 
 .studiolist {
-	position: absolute;
+	position: relative;
 	font-family: monospace;
 	left: 50%;
-	transform: translate(-50%,-50%);
-}
+	transform: translate(-50%,-50%); 
+} 
 
 #malevich {
-	top: 15%;
-}
-
-#linking {
-	top: 20%;
-}
-
-#stilllife {
 	top: 25%;
 }
 
-#clock {
+#linking {
 	top: 30%;
 }
 
-#responsive {
+#stilllife {
 	top: 35%;
 }
 
-#containers {
+#clock {
 	top: 40%;
 }
 
-#hands {
+#responsive {
 	top: 45%;
+}
+
+#containers {
+	top: 50%;
+}
+
+#hands {
+	top: 55%;
 }
 
 /*___________________________________________________*/
 
 .lablist {
-	position: absolute;
+	position: relative;
 	font-family: monospace;
 	left: 50%;
 	transform: translate(-50%,-50%);
